@@ -1,0 +1,92 @@
+{
+    "categories":[
+
+        {
+
+            "Email":{
+
+                "sender": "sumit",
+                "receiver": "abc",
+                "subject": "hello",
+                "date": "xyz",
+                "time": "abdf",
+                "message": "hi",
+                "attachment": "xxx"
+
+            }
+        },
+
+         {
+
+            "Calendar":{
+
+                "sender": "sumit",
+                "receiver": "abc",
+                "subject": "hello",
+                "date": "xyz",
+                "time": "abdf",
+                 "message": "hi",
+                "attachment": "xxx",
+                "location": "xyz"
+
+            }
+        },
+
+         {
+
+            "Courier":{
+
+                "sender": "sumit",
+                "receiver": "abc",
+                "status": "received",
+                "location": "xyz"
+
+            }
+        },
+
+         {
+
+            "Chat":{
+
+
+                "sender": "sumit",
+                "reciver": "abc",
+                "status": "idle",
+                "date": "xyz",
+                "time": "abdf",
+                "location": "xyz",
+                "message": "helloWorld"
+
+
+            }
+        },
+
+         {
+
+            "News":{
+
+                "city": "Bangalore",
+                "location": "rmnagar",
+                "date": "llll",
+                "type": "social",
+                "message": "Strrike in Bangalore"
+
+            }
+        },
+
+         {
+
+            "Cab-Request":{
+
+                "location": "blore",
+                "date": "mmm",
+                "time": "mmmm",
+                "drop": "xxxxxx",
+                "pickup":"mmm",
+                "fare": "98898"
+
+            }
+        }
+
+    ] 
+}

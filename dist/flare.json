@@ -1,0 +1,85 @@
+{
+ "name": "flare",
+ "children": [
+  {
+    
+        "name": "Email",
+        "children": [
+            {"name": "sender", "size": 4},
+            {"name": "receiver", "size": 4},
+            {"name": "subject", "size": 2},
+            {"name": "date", "size": 7},
+            {"name": "time", "size": 4},
+            {"name": "message", "size": 4},
+            {"name": "attachment", "size": 2}
+          ]
+      },
+      
+      {
+      
+      "name": "Chat",
+      "children": [
+        {"name": "sender", "size": 4},
+        {"name": "receiver", "size": 4},
+        {"name": "status", "size": 2},
+        {"name": "date", "size": 7},
+        {"name": "time", "size": 4},
+        {"name": "message", "size": 4},
+        {"name": "location", "size": 5}
+     ]
+   },
+   
+   {
+      
+      "name": "Courier",
+   "children": [
+      {"name": "sender", "size": 4},
+      {"name": "receiver", "size": 4},
+      {"name": "status", "size": 2},
+      {"name": "location", "size": 5}
+     
+     ]
+   },
+    {
+   "name": "Calendar",   
+   "children": [
+      {"name": "sender", "size": 4},
+      {"name": "receiver", "size": 4},
+      {"name": "subject", "size": 2},
+      {"name": "date", "size": 7},
+      {"name": "time", "size": 4},
+      {"name": "message", "size": 4},
+      {"name": "location", "size": 5}
+     ]
+    },
+  
+   {
+     "name": "News",
+     "children": [
+      {"name": "city", "size": 1},
+      {"name": "location", "size": 5},
+      {"name": "date", "size": 7},
+      {"name": "type", "size": 4},
+      {"name": "message", "size": 4}
+     ]
+    
+    },
+  
+   {
+   "name": "Cab-request",
+   "children": [
+    {"name": "location", "size": 5},
+    {"name": "date", "size": 7},
+    {"name": "time", "size": 4},
+    {"name": "drop", "size": 1},
+   {"name": "pickup", "size": 1},
+    {"name": "fare", "size": 1}
+   ]
+  }
+   
+  
+]
+}
+
+   
+   
